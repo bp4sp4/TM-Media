@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사 조직도</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .org-chart {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .node {
+            border: 1px solid #007BFF;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            background-color: #E7F3FF;
+            position: relative;
+        }
+
+        .line {
+            border-left: 2px solid #007BFF;
+            height: 20px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: -20px;
+        }
+
+        .children {
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        .sub-children {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .children .node:not(:last-child)::after {
+            content: "";
+            width: 20px;
+            height: 2px;
+            background: #007BFF;
+            position: absolute;
+            left: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .sub-children .node {
+            background-color: #FFFAE7;
+            border: 1px solid #FFB300;
+        }
+
+        .sub-children .node:hover {
+            background-color: #FFEDD5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="org-chart">
+        <div class="node">CEO</div>
+
+        <div class="line"></div>
+
+        <div class="children">
+            <div class="node">방송</div>
+            <div class="node">중계차</div>
+            <div class="node">솔루션</div>
+            <div class="node">컨설팅</div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="children">
+            <div class="node">영업부</div>
+            <div class="line"></div>
+            <div class="sub-children">
+                <div class="node">SI 사업부</div>
+                <div class="node">유통 사업부</div>
+            </div>
+        </div>
+
+        <div class="children">
+            <div class="node">기술부</div>
+            <div class="line"></div>
+            <div class="sub-children">
+                <div class="node">시스템 설계부</div>
+                <div class="node">제안/기획팀</div>
+            </div>
+        </div>
+
+        <div class="children">
+            <div class="node">기술지원</div>
+            <div class="line"></div>
+            <div class="sub-children">
+                <div class="node">기업 교육팀</div>
+                <div class="node">방송 교육팀</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
