@@ -70,7 +70,9 @@
     padding: 2.4rem 8rem;
 }
 
-.basic-N1 .header-title a {}
+.basic-N1 .header-title a {
+    font-style: italic;
+}
 
 .basic-N1 .header-title img {
     width: 100%;
@@ -258,10 +260,7 @@
         padding: 0 1.6rem;
     }
 
-    .basic-N1 .header-title a {
-        width: 8.2rem;
-        height: 2.6rem;
-    }
+    .basic-N1 .header-title a {}
 
     .basic-N1 .header-center {
         position: fixed;
@@ -536,7 +535,6 @@
 
 .basic-N18 .contents-inner {
     padding: 8rem 1.6rem;
-    background-color: var(--highlight-bg);
 }
 
 .basic-N18 .contents-group {
@@ -552,7 +550,7 @@
 }
 
 .basic-N18 .cardset-figure {
-    height: 32rem;
+    height: 50rem;
 }
 
 @media (max-width: 992px) {
@@ -593,6 +591,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+    margin-top: 1.6rem;
     margin-bottom: 1.6rem;
 }
 
@@ -770,12 +769,22 @@
 
 /* 연혁 */
 
+.history__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+
 .history {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 3rem;
+    flex: 1;
 
 }
 
@@ -829,4 +838,87 @@
     font-size: 17px;
     color: #000;
     line-height: 29px;
+}
+
+.history__wrap__lorem {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+
+}
+
+.strong__lorem {
+    line-height: 50px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.strongColor {
+    color: #ff5a2b;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.cardeset__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardset__subtit {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-style: italic;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid rgb(1, 64, 90);
+    color: rgb(1, 64, 90);
+    text-transform: uppercase;
+}
+
+.company__wrap {
+    border-bottom: 3px solid rgba(1, 64, 90, 0.2);
+    margin-left: 1rem;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    background-color: rgba(1, 64, 90, 0.05);
+    border-radius: 10px;
+}
+
+.company__list {
+    margin-left: 2rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.company__list .company__items {
+    list-style-type: disc;
+    font-size: 1.6rem;
+    margin: 0.5rem 0;
+    line-height: 1.8;
+    color: rgb(33, 37, 41);
+    transition: color 0.3s ease;
+}
+
+.cardset-imges {
+    width: 100%;
+    height: 50rem;
+    object-fit: contain;
+}
+
+
+
+
+
+.titleColor {
+    color: #335995;
+}
+
+@media (max-width: 992px) {
+    .cardeset__img img {
+        width: 400px;
+    }
 }
