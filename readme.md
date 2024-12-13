@@ -1,5 +1,18 @@
 # TM Media 회사 홈페이지
 
+## 24/12/10 시작
+
+- 만들어진 영역
+  - 메인, 회사소개, 사업소개
+  - TM 미디어 - <a href="https://bp4sp4.github.io/TM-Media/">Demo Site</a>
+
+<h2>24/12/12(목)</h2>
+
+- 사업 소개
+  - Our business (부트스트랩 아이콘 사용)
+  - Our Services
+  - Our Business Management (약간 순서도 표시)
+
 <h2>24/12/12(목)</h2>
 
 - 회사소개 페이지 완성
