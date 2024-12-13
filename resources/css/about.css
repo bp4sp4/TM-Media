@@ -922,3 +922,22 @@
         width: 400px;
     }
 }
+
+.section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+
+.content.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
