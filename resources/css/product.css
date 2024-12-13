@@ -626,8 +626,7 @@
 }
 
 .basic-N4 .footer-logo a {
-    width: 10.6rem;
-    height: 3.3rem;
+    font-size: 2rem;
 }
 
 .basic-N4 .footer-logo img {
@@ -703,7 +702,7 @@
     justify-content: center;
     color: var(--text-color4);
     font-size: 1.2rem;
-    line-height: 2.4rem;
+    align-items: center;
 }
 
 .basic-N4 .footer-txt+.footer-txt {
@@ -712,7 +711,7 @@
 
 .basic-N4 .footer-txt p {
     margin-bottom: 0;
-    line-height: 1.8rem;
+
 }
 
 .basic-N4 .footer-txt p+p {
