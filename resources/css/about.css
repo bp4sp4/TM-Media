@@ -260,7 +260,9 @@
         padding: 0 1.6rem;
     }
 
-    .basic-N1 .header-title a {}
+    .basic-N1 .header-title a {
+        font-size: 2rem;
+    }
 
     .basic-N1 .header-center {
         position: fixed;
@@ -709,7 +711,7 @@
     }
 
     .basic-N4 .footer-logo a {
-        width: 8.4rem;
+
         height: 2.6rem;
     }
 
@@ -738,7 +740,10 @@
     }
 
     .basic-N4 .footer-txt {
+        display: flex;
+        justify-content: left;
         flex-direction: column;
+        align-items: flex-start;
     }
 
     .basic-N4 .footer-txt p+p {

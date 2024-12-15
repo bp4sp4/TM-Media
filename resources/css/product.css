@@ -1,4 +1,13 @@
-/* basic-N1 [pHM4I6mUGA] */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* 가로 스크롤을 숨깁니다 */
+    width: 100%;
+    /* 가로 너비가 100%를 넘지 않도록 설정 */
+}
+
 .basic-N1 {
     position: relative;
     top: -100%;
@@ -709,7 +718,7 @@
     }
 
     .basic-N4 .footer-logo a {
-        width: 8.4rem;
+
         height: 2.6rem;
     }
 
@@ -738,7 +747,10 @@
     }
 
     .basic-N4 .footer-txt {
+        display: flex;
+        justify-content: left;
         flex-direction: column;
+        align-items: flex-start;
     }
 
     .basic-N4 .footer-txt p+p {
