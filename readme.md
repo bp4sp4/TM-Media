@@ -6,7 +6,16 @@
   - 메인, 회사소개, 사업소개
   - TM 미디어 - <a href="https://bp4sp4.github.io/TM-Media/">Demo Site</a>
 
-<h2>24/12/12(목)</h2>
+<h2>24/12/15(일)</h2>
+
+- 제품 소개
+  - Our Products
+  - Deva 영억 제품 이미지 추가
+  - AnySet 이미지 추가
+  - Logitech 이미지 추가
+  - Comrex 이미지 추가
+
+<h2>24/12/13(금)</h2>
 
 - 사업 소개
   - Our business (부트스트랩 아이콘 사용)
