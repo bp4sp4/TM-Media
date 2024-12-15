@@ -6,12 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("visible");
-          observer.unobserve(entry.target); // 한 번만 보이도록 감지 종료
+          observer.unobserve(entry.target);
         }
       });
     },
     {
-      threshold: 0.2,
+      threshold: 0.1,
     }
   );
 
