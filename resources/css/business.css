@@ -826,10 +826,6 @@
 }
 
 .service__box__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
     width: 250px;
     height: 300px;
     border: 1px solid #d1d5db;
@@ -847,6 +843,7 @@
 
 
 .service__subtit {
+    width: 100%;
     font-size: 2rem;
     color: #1f2937;
     border-bottom: 2px solid #3b82f6;
