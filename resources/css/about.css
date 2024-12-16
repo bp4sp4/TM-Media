@@ -915,13 +915,9 @@
 }
 
 
-.titleColor {
-    color: #335995;
-}
-
 @media (max-width: 992px) {
     .cardeset__img img {
-        width: 400px;
+        width: 380px;
     }
 }
 
