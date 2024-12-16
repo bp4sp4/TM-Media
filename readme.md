@@ -3,8 +3,12 @@
 ## 24/12/10 시작
 
 - 만들어진 영역
-  - 메인, 회사소개, 사업소개
   - TM 미디어 - <a href="https://bp4sp4.github.io/TM-Media/">Demo Site</a>
+
+<h2>24/12/16(일)</h2>
+- Contact 까지 완료
+- upbtn 추가
+- 1차 테스트
 
 <h2>24/12/15(일)</h2>
 
