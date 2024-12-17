@@ -3,7 +3,7 @@
 ## 24/12/10 ~ 17일
 
 - 만들어진 영역
-  - TM 미디어 - <a href="https://bp4sp4.github.io/TM-Media/">Demo Site</a>
+  - TM 미디어 - <a href="http://tmmedia.co.kr/">Demo Site</a>
 
 <h2>24/12/17(화)</h2>
 - icon 안보이는거 포토샵으로 수정 및 제작
