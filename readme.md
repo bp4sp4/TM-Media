@@ -2,8 +2,9 @@
 
 ## 24/12/10 ~ 17일
 
-- 만들어진 영역
-  - TM 미디어 - <a href="http://tmmedia.co.kr/">Demo Site</a>
+우클릭 새창을 통해 보시면 화면 전화없이 보실수 있스비다.
+
+- TM 미디어 - <a target="_blank" href="http://tmmedia.co.kr/">Demo Site</a>
 
 <h2>24/12/17(화)</h2>
 
