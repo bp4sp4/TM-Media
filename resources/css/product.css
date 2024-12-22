@@ -1105,16 +1105,32 @@ body {
 
 @media (max-width: 480px) {
     .products__title {
-        text-align: center;
+        font: 1rem;
+    }
 
+    .tabbed-products__title {
+        font-size: 2rem;
+    }
+
+    .tabbed-products__sustrong {
+        font-size: 1rem;
     }
 
     .tabbed-products__subtitle {
-        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .product__image {
+        height: 200px !important;
+        padding: 50px;
+    }
+
+    .product__list__name {
+        font-size: 1.8rem;
     }
 
     .product__item {
-        width: 30%;
+        width: 90%;
         margin-bottom: 20px;
     }
 
@@ -1131,7 +1147,8 @@ body {
     }
 
     .tabbed-products {
-        padding: 10px;
+        width: 100%;
+
     }
 
     .tabbed-products__tab {

@@ -6,6 +6,11 @@
 
 - TM 미디어 - <a target="_blank" href="http://tmmedia.co.kr/">Demo Site</a>
 
+<h2>24/12/22(일)</h2>
+
+- product 모바일 안보이는 문제 해결
+- 모바일 폰트 사이즈 조절
+
 <h2>24/12/17(화)</h2>
 
 - icon 안보이는거 포토샵으로 수정 및 제작
