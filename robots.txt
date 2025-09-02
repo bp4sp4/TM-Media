@@ -4,6 +4,9 @@ Allow: /
 # Sitemap
 Sitemap: https://tmmedia.co.kr/sitemap.xml
 
+# RSS Feed
+RSS: https://tmmedia.co.kr/rss.xml
+
 # Disallow specific directories if needed
 # Disallow: /resources/
 # Disallow: /admin/
