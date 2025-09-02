@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://tmmedia.co.kr/sitemap.xml
+
+# Disallow specific directories if needed
+# Disallow: /resources/
+# Disallow: /admin/

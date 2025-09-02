@@ -1,16 +1,16 @@
 const upButton = document.getElementById("upButton");
 
-window.onscroll = function () {
+window.addEventListener("scroll", function () {
   if (
-    document.body.scrollTop > 200 ||
-    document.documentElement.scrollTop > 200
+    document.body.scrollTop > 300 ||
+    document.documentElement.scrollTop > 300
   ) {
-    upButton.style.display = "block";
+    upButton.classList.add("visible");
   } else {
-    upButton.style.display = "none";
+    upButton.classList.remove("visible");
   }
-};
+});
 
-upButton.onclick = function () {
+upButton.addEventListener("click", function () {
   window.scrollTo({ top: 0, behavior: "smooth" });
-};
+});
