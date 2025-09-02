@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>(주)TM Media - 최첨단 방송 시스템 및 솔루션 제공업체</title>
+    <link>https://tmmedia.co.kr/</link>
+    <description>(주)TM미디어는 방송 시스템, 유지보수 및 맞춤형 미디어 솔루션을 제공하여 고객 비즈니스의 효율성을 높입니다.</description>
+    <language>ko</language>
+    <lastBuildDate>Thu, 19 Dec 2024 12:00:00 +0900</lastBuildDate>
+    <generator>TM Media RSS Generator</generator>
+    <atom:link href="https://tmmedia.co.kr/rss.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>TM Media Business - 방송 시스템 사업</title>
+      <link>https://tmmedia.co.kr/business.html</link>
+      <description>최첨단 멀티미디어 방송기술에 대한 축적된 기술과 경험을 바탕으로 방송 SI 분야 전문업체로서 다양한 방송 사업 경험, 우수한 인력, 효율적인 설계 능력을 보유하고 있습니다.</description>
+      <category>사업소개</category>
+      <pubDate>Thu, 19 Dec 2024 12:00:00 +0900</pubDate>
+      <guid>https://tmmedia.co.kr/business.html</guid>
+    </item>
+    
+    <item>
+      <title>TM Media Business - 제품&솔루션 사업</title>
+      <link>https://tmmedia.co.kr/business.html</link>
+      <description>고객이 필요한 장비, 시장을 선도하는 미디어 솔루션을 발굴하고 고객의 요구에 맞게 customizing 하여 제공함으로써 고객들의 비즈니스를 효율적으로 수행할 수 있도록 지원합니다.</description>
+      <category>사업소개</category>
+      <pubDate>Thu, 19 Dec 2024 12:00:00 +0900</pubDate>
+      <guid>https://tmmedia.co.kr/business.html#solution</guid>
+    </item>
+    
+    <item>
+      <title>TM Media Business - 컨설팅/유지보수 사업</title>
+      <link>https://tmmedia.co.kr/business.html</link>
+      <description>방송, 공연 등 시스템 전반에 걸친 Total 컨설팅 서비스를 제공하며 통합관리 및 유지보수 서비스를 제공하여 고객 만족 실현을 위한 기업 활동을 수행하고 있습니다.</description>
+      <category>사업소개</category>
+      <pubDate>Thu, 19 Dec 2024 12:00:00 +0900</pubDate>
+      <guid>https://tmmedia.co.kr/business.html#consulting</guid>
+    </item>
+    
+    <item>
+      <title>TM Media - 회사소개</title>
+      <link>https://tmmedia.co.kr/about.html</link>
+      <description>TM미디어는 2013년 창립 이래로 방송 시스템 및 솔루션 분야에서 꾸준한 성장을 이어오고 있습니다. 최고라는 자부심으로 국내 방송 시스템의 인프라 구축과 사후관리의 모든 솔루션을 제공하는 회사입니다.</description>
+      <category>회사소개</category>
+      <pubDate>Thu, 19 Dec 2024 12:00:00 +0900</pubDate>
+      <guid>https://tmmedia.co.kr/about.html</guid>
+    </item>
+    
+    <item>
+      <title>TM Media - 제품소개</title>
+      <link>https://tmmedia.co.kr/product.html</link>
+      <description>TM미디어가 제공하는 최첨단 방송 시스템 제품들과 미디어 솔루션을 소개합니다. 고객의 요구에 맞는 맞춤형 솔루션을 제공합니다.</description>
+      <category>제품소개</category>
+      <pubDate>Thu, 19 Dec 2024 12:00:00 +0900</pubDate>
+      <guid>https://tmmedia.co.kr/product.html</guid>
+    </item>
+    
+    <item>
+      <title>TM Media - Contact</title>
+      <link>https://tmmedia.co.kr/contact.html</link>
+      <description>TM미디어와 연락하실 수 있는 방법을 안내합니다. 서울 강서구 등촌로 57길 9-7, 거산하이빌 202호에 위치하고 있으며, 전화: 02-3477-7257, 이메일: bp2sp2@naver.com으로 연락 가능합니다.</description>
+      <category>Contact</category>
+      <pubDate>Thu, 19 Dec 2024 12:00:00 +0900</pubDate>
+      <guid>https://tmmedia.co.kr/contact.html</guid>
+    </item>
+    
+    <item>
+      <title>TM Media - 주요사업실적</title>
+      <link>https://tmmedia.co.kr/about.html</link>
+      <description>인천 온라인 학교 스튜디오 시스템 구축, 대구 온라인 학교 스튜디오 시스템 구축, 서울 시의회 유지보수, 수원시 미디어 센터 상영 및 방송 장비 구매•설치, 동북권 메타버스 허브 시스템 구축 등 다양한 프로젝트를 성공적으로 수행했습니다.</description>
+      <category>회사소개</category>
+      <pubDate>Thu, 19 Dec 2024 12:00:00 +0900</pubDate>
+      <guid>https://tmmedia.co.kr/about.html#achievements</guid>
+    </item>
+  </channel>
+</rss>
